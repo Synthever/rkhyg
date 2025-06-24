@@ -51,43 +51,44 @@
         <div class="loading-animation">
             <div class="w-16 h-16 border-4 border-accent-blue border-t-transparent rounded-full animate-spin"></div>
         </div>
-    </div>
-
-    <!-- Floating Navigation -->
+    </div>    <!-- Floating Navigation -->
     <nav id="floating-nav"
-        class="fixed bottom-20 left-1/4 transform -translate-x-1/2 z-40 bg-white/10 dark:bg-black/20 backdrop-blur-md rounded-full px-6 py-3 border border-white/20 dark:border-gray-700">
-        <div class="flex space-x-6">
-            <a href="#home" class="nav-link active px-4 py-2 rounded-full transition-all duration-300"
-                data-section="home">
-                <i class="fas fa-home"></i>
-                <span class="ml-2 hidden md:inline">Home</span>
+        class="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-40 bg-white/10 dark:bg-black/20 backdrop-blur-md rounded-full px-3 py-2 md:px-6 md:py-3 border border-white/20 dark:border-gray-700 w-fit max-w-[90vw] mx-auto">
+        <div class="flex space-x-1 md:space-x-4 lg:space-x-6 items-center justify-center">
+            <a href="#home" class="nav-link active px-2 py-2 md:px-3 lg:px-4 md:py-2 rounded-full transition-all duration-300 text-center flex items-center justify-center"
+                data-section="home" title="Home">
+                <i class="fas fa-home text-sm md:text-base"></i>
+                <span class="ml-1 md:ml-2 hidden lg:inline text-xs md:text-sm">Home</span>
             </a>
-            <a href="#about" class="nav-link px-4 py-2 rounded-full transition-all duration-300" data-section="about">
-                <i class="fas fa-user"></i>
-                <span class="ml-2 hidden md:inline">About</span>
+            <a href="#about" class="nav-link px-2 py-2 md:px-3 lg:px-4 md:py-2 rounded-full transition-all duration-300 text-center flex items-center justify-center" 
+                data-section="about" title="About">
+                <i class="fas fa-user text-sm md:text-base"></i>
+                <span class="ml-1 md:ml-2 hidden lg:inline text-xs md:text-sm">About</span>
             </a>
-            <a href="#skills" class="nav-link px-4 py-2 rounded-full transition-all duration-300" data-section="skills">
-                <i class="fas fa-code"></i>
-                <span class="ml-2 hidden md:inline">Skills</span>
+            <a href="#skills" class="nav-link px-2 py-2 md:px-3 lg:px-4 md:py-2 rounded-full transition-all duration-300 text-center flex items-center justify-center" 
+                data-section="skills" title="Skills">
+                <i class="fas fa-code text-sm md:text-base"></i>
+                <span class="ml-1 md:ml-2 hidden lg:inline text-xs md:text-sm">Skills</span>
             </a>
-            <a href="#experience" class="nav-link px-4 py-2 rounded-full transition-all duration-300"
-                data-section="experience">
-                <i class="fas fa-briefcase"></i>
-                <span class="ml-2 hidden md:inline">Experience</span>
+            <a href="#experience" class="nav-link px-2 py-2 md:px-3 lg:px-4 md:py-2 rounded-full transition-all duration-300 text-center flex items-center justify-center"
+                data-section="experience" title="Experience">
+                <i class="fas fa-briefcase text-sm md:text-base"></i>
+                <span class="ml-1 md:ml-2 hidden lg:inline text-xs md:text-sm">Experience</span>
             </a>
-            <a href="#projects" class="nav-link px-4 py-2 rounded-full transition-all duration-300"
-                data-section="projects">
-                <i class="fas fa-folder-open"></i>
-                <span class="ml-2 hidden md:inline">Projects</span>
+            <a href="#projects" class="nav-link px-2 py-2 md:px-3 lg:px-4 md:py-2 rounded-full transition-all duration-300 text-center flex items-center justify-center"
+                data-section="projects" title="Projects">
+                <i class="fas fa-folder-open text-sm md:text-base"></i>
+                <span class="ml-1 md:ml-2 hidden lg:inline text-xs md:text-sm">Projects</span>
             </a>
-            <a href="#blog" class="nav-link px-4 py-2 rounded-full transition-all duration-300" data-section="blog">
-                <i class="fas fa-blog"></i>
-                <span class="ml-2 hidden md:inline">Blog</span>
+            <a href="#blog" class="nav-link px-2 py-2 md:px-3 lg:px-4 md:py-2 rounded-full transition-all duration-300 text-center flex items-center justify-center" 
+                data-section="blog" title="Blog">
+                <i class="fas fa-blog text-sm md:text-base"></i>
+                <span class="ml-1 md:ml-2 hidden lg:inline text-xs md:text-sm">Blog</span>
             </a>
-            <a href="#contact" class="nav-link px-4 py-2 rounded-full transition-all duration-300"
-                data-section="contact">
-                <i class="fas fa-envelope"></i>
-                <span class="ml-2 hidden md:inline">Contact</span>
+            <a href="#contact" class="nav-link px-2 py-2 md:px-3 lg:px-4 md:py-2 rounded-full transition-all duration-300 text-center flex items-center justify-center"
+                data-section="contact" title="Contact">
+                <i class="fas fa-envelope text-sm md:text-base"></i>
+                <span class="ml-1 md:ml-2 hidden lg:inline text-xs md:text-sm">Contact</span>
             </a>
         </div>
     </nav>
@@ -331,11 +332,10 @@
                                 <div class="timeline-content flex-1">
                                     <h3 class="text-xl font-semibold text-accent-purple mb-2">
                                         CEO & Co-Founder
-                                    </h3>
-                                    <h4 class="text-lg font-medium text-gray-600 dark:text-gray-400 mb-3">
+                                    </h3>                                    <h4 class="text-lg font-medium text-gray-400 mb-3">
                                         Respondly - Questionnaire Respondent Matching Platform
                                     </h4>
-                                    <p class="text-gray-700 dark:text-gray-300 mb-4">
+                                    <p class="text-gray-300 mb-4">
                                         Led the development of Respondly, a platform that connects
                                         questionnaire creators with respondents using machine
                                         learning to ensure high-quality data collection.
@@ -651,19 +651,17 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- Blog Section -->
-        <section id="blog" class="py-20 bg-light-secondary dark:bg-dark-secondary">
+        </section>        <!-- Blog Section -->
+        <section id="blog" class="py-20 bg-dark-secondary">
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl mx-auto">
                     <h2
-                        class="pukimay md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-accent-blue to-accent-purple bg-clip-text text-transparent">
+                        class="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-accent-blue to-accent-purple bg-clip-text text-transparent">
                         Latest Insights
                     </h2>
 
                     <!-- Featured Article -->
-                    <div class="featured-article bg-white dark:bg-dark-accent rounded-xl p-8 shadow-lg mb-12">
+                    <div class="featured-article bg-dark-accent rounded-xl p-8 shadow-lg mb-12">
                         <div class="grid md:grid-cols-3 gap-8 items-center">
                             <div
                                 class="h-100 bg-gradient-to-br from-accent-blue to-accent-purple rounded-lg flex items-center justify-center">
@@ -675,14 +673,14 @@
                                     <span
                                         class="px-3 py-1 bg-accent-blue/10 text-accent-blue rounded-full text-sm">PILMAPRES
                                         2025</span>
-                                    <span class="text-gray-500 dark:text-gray-400 text-sm">June 2025</span>
+                                    <span class="text-gray-400 text-sm">June 2025</span>
                                 </div>
-                                <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
+                                <h3 class="text-2xl font-bold mb-4 text-white">
                                     PASSED the Regional Level V Administrative Selection and
                                     will advance to the next stage of the prestigious PILMAPRES
                                     2025
                                 </h3>
-                                <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+                                <p class="text-gray-300 mb-6 leading-relaxed">
                                     a national competition in Indonesia that recognizes the most
                                     accomplished and impactful university students based on
                                     academic excellence, innovation, leadership, and
@@ -701,7 +699,7 @@
                     <!-- Blog Posts Grid -->
                     <div class="grid md:grid-cols-2 gap-8">
                         <div
-                            class="blog-card bg-white dark:bg-dark-accent rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                            class="blog-card bg-dark-accent rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
                             <div
                                 class="h-60 bg-gradient-to-br from-accent-purple to-accent-blue rounded-lg mb-4 flex items-center justify-center">
                                 <img src="assets/img/nstb.png" alt="NSTB 2025"
@@ -710,13 +708,13 @@
                             <div class="flex items-center gap-3 mb-3">
                                 <span
                                     class="px-2 py-1 bg-accent-purple/10 text-accent-purple rounded text-xs">Competition</span>
-                                <span class="text-gray-500 dark:text-gray-400 text-sm">May 2025</span>
+                                <span class="text-gray-400 text-sm">May 2025</span>
                             </div>
-                            <h4 class="text-lg font-semibold mb-3">
+                            <h4 class="text-lg font-semibold mb-3 text-white">
                                 Inovasi Mahasiswa AMIKOM Raih Prestasi di NextGen Sciences Techpreneur Battle (NSTB)
                                 2025
                             </h4>
-                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+                            <p class="text-gray-300 text-sm mb-4">
                                 Five student teams from Universitas AMIKOM Yogyakarta successfully advanced to the final
                                 round of the national competition *NextGen Sciences Techpreneur Battle (NSTB) 2025*,
                                 organized by JCI Yogyakarta. The grand final took place at IndigoHub Jogja on Friday,
@@ -732,7 +730,7 @@
                         </div>
 
                         <div
-                            class="blog-card bg-white dark:bg-dark-accent rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                            class="blog-card bg-dark-accent rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
                             <div
                                 class="blog-image h-40 bg-gradient-to-br from-accent-blue to-accent-purple rounded-lg mb-4 flex items-center justify-center">
                                 <i class="fas fa-chart-bar text-white text-3xl"></i>
@@ -740,12 +738,12 @@
                             <div class="flex items-center gap-3 mb-3">
                                 <span class="px-2 py-1 bg-accent-blue/10 text-accent-blue rounded text-xs">Data
                                     Science</span>
-                                <span class="text-gray-500 dark:text-gray-400 text-sm">April 2025</span>
+                                <span class="text-gray-400 text-sm">April 2025</span>
                             </div>
-                            <h4 class="text-lg font-semibold mb-3">
+                            <h4 class="text-lg font-semibold mb-3 text-white">
                                 Data Analytics in Business Intelligence
                             </h4>
-                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+                            <p class="text-gray-300 text-sm mb-4">
                                 How data analytics transforms business decision-making
                                 processes...
                             </p>
@@ -768,11 +766,10 @@
                         Get In Touch
                     </h2>
 
-                    <div class="grid md:grid-cols-2 gap-12">
-                        <!-- Contact Info -->
+                    <div class="grid md:grid-cols-2 gap-12">                        <!-- Contact Info -->
                         <div class="contact-info">
-                            <h3 class="text-2xl font-semibold mb-8">Let's Connect</h3>
-                            <p class="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
+                            <h3 class="text-2xl font-semibold mb-8 text-white">Let's Connect</h3>
+                            <p class="text-gray-300 mb-8 leading-relaxed">
                                 I'm always interested in new opportunities and collaborations.
                                 Whether you have a project in mind or just want to say hello,
                                 I'd love to hear from you!
@@ -830,48 +827,14 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Contact Form -->
-                        <div class="">
-                            <form class="space-y-6">
-                                <div>
-                                    <label for="name" class="block text-sm font-medium mb-2">Name</label>
-                                    <input type="text" id="name" name="name"
-                                        class="w-full px-4 py-3 bg-white dark:bg-dark-accent border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-accent-blue focus:border-transparent transition-all duration-300"
-                                        placeholder="Your Name" />
-                                </div>
-
-                                <div>
-                                    <label for="email" class="block text-sm font-medium mb-2">Email</label>
-                                    <input type="email" id="email" name="email"
-                                        class="w-full px-4 py-3 bg-white dark:bg-dark-accent border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-accent-blue focus:border-transparent transition-all duration-300"
-                                        placeholder="your@email.com" />
-                                </div>
-
-                                <div>
-                                    <label for="message" class="block text-sm font-medium mb-2">Message</label>
-                                    <textarea id="message" name="message" rows="5"
-                                        class="w-full px-4 py-3 bg-white dark:bg-dark-accent border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-accent-blue focus:border-transparent transition-all duration-300"
-                                        placeholder="Your message here..."></textarea>
-                                </div>
-
-                                <button type="submit"
-                                    class="w-full py-3 bg-gradient-to-r from-accent-blue to-accent-purple text-white rounded-lg hover:scale-105 transition-all duration-300 font-medium">
-                                    Send Message
-                                    <i class="fas fa-paper-plane ml-2"></i>
-                                </button>
-                            </form>
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="py-8 bg-light-secondary dark:bg-dark-secondary border-t border-gray-200 dark:border-gray-800">
+    </main>    <!-- Footer -->
+    <footer class="py-8 bg-dark-secondary border-t border-gray-800">
         <div class="container mx-auto px-6 text-center">
-            <p class="text-gray-600 dark:text-gray-400">
+            <p class="text-gray-400">
                 © 2025 Raekhandi Yoga Gusmawan. All rights reserved.
                 <span class="mx-2">•</span>
                 Built with ❤️ using TailwindCSS & Anime.js

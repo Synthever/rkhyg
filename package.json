@@ -1,0 +1,34 @@
+{
+  "name": "raekhandi-portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio website for Raekhandi Yoga Gusmawan",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --host=localhost --port=3000 --open=/",
+    "build": "echo 'Building project...' && npm run minify",
+    "minify": "echo 'Minification would go here'",
+    "test": "echo 'Tests would go here'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "tailwindcss",
+    "anime.js",
+    "javascript",
+    "responsive",
+    "modern"
+  ],
+  "author": "Raekhandi Yoga Gusmawan",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Synthever/rkhyg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Synthever/rkhyg/issues"
+  },
+  "homepage": "https://raekhandi.dev"
+}

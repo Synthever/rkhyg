@@ -9,6 +9,9 @@
     "minify": "echo 'Minification would go here'",
     "test": "echo 'Tests would go here'"
   },
+  "scripts": {
+    "build": "[my-framework] build --output public"
+  },
   "keywords": [
     "portfolio",
     "website",
